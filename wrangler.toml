@@ -1,0 +1,7 @@
+name = "telegraph-image-worker"
+main = ".vercel/output/static/_worker.js/index.js"
+compatibility_date = "2025-12-12" # 使用今天的日期或更晚的日期
+compatibility_flags = ["nodejs_compat"]
+
+[site]
+bucket = ".vercel/output/static"
